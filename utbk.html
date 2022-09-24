@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>UTBK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <div class="logo">ZoneX</div>
+            <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+            <input type="checkbox" id="btn">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <label for="btn-1" class="show">Mapel</label>
+                    <a href="#">Mapel</a>
+                    <input type="checkbox" id="btn-1">
+                    <ul>
+                        <li><a href="matematika.html">Matematika</a></li>
+                        <li><a href="biologi.html">Biologi</a></li>
+                        <li><a href="kimia.html">Kimia</a></li>
+                        <li><a href="fisika.html">Fisika</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-2" class="show">Ujian</label>
+                    <a href="#">Ujian</a>
+                    <input type="checkbox" id="btn-2">
+                    <ul>
+                        <li><a href="un.html">UN</a></li>
+                        <li><a href="utbk.html">UTBK</a></li>
+                        <li>
+                            <label for="btn-3" class="show">Lainnya</label>
+                            <a href="lainnya.html">Lainnya</a>
+                            <input type="checkbox" id="btn-3">
+                            <ul>
+                                <li><a href="uts.html">UTS</a></li>
+                                <li><a href="uas.html">UAS</a></li>
+                                <li><a href="latsol.html">Latihan Soal</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="insight.html">Insight</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div style="text-align: center ; color: rgb(0, 0, 0);">
+            <h1>ZoneX</h1>
+            <p style="font-weight: bold;">Media Belajar Terpercaya</p>
+        </div>
+        <div class="row">
+            <div class="main">
+                <h1 style="text-align: center;"> SORRY,THIS PAGE IS UNDER CONSTRUCTION !!! </h1>
+            </div>
+            <div class="side">
+                <div class="insight">
+                    <h2 style="text-align: center ;">INSGIHT</h2>
+                    <p id="date" style="font-size: 10px ;"></p>
+                    <br>
+                    <h4><a href="menghafal.html">TATA CARA CEPAT MENGHAFAL</a></h4>
+                    <p class="sc">Membahas mengenai tata cara menghafal dengan baik dan benar</p>
+                    <br>
+                    <h4><a href="utbk1.html">TIPS Belajar UTBK 2022</a></h4>
+                    <p class="sc">Tips dan Trick Dalam mengikuti UTBK</p>
+                    <br>
+                    <h4><a href="begadang.html">BAHAYA TERLALU SERING BEGADANG</a></h4>
+                    <p class="sc">Dampak-dampak yang akan muncul apabila terlalu sering begadang</p>
+                    <br>
+                    <h4><a href="belajar.html">TIPS BELAJAR</a></h4>
+                    <p class="sc">Tips-tips agar belajar kalian menjadi tidak membosankan</p>
+                    <br>
+                </div>
+                <br>
+                <div class="insight">
+                    <h2 style="text-align: center ;">Artikel Terpopuler</h2>
+                    <br>
+                    <ol type="1" style="margin: 20px;">
+                        <li><a href="limit.html">  Limit Aljabar</a></li><br>
+                        <li><a href="Integral.html">  Integral Tentu </a></li><br>
+                        <li><a href="newton.html">  Hukum Newton</a></li><br>
+                        <li><a href="pegas.html">  Gaya Pegas</a></li><br>
+                        <li><a href="virus.html">  Virus dan Pengertian</a></li><br>
+                        <li><a href="koligatif.html">  Sifat Koligatif Larutan</a></li><br>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <h5>&copy; 2022 ZoneX Property</h5>
+        </div>
+    </div>
+    <script>
+        $('.icon').click(function() {
+            $('span').toggleClass("cancel");
+        });
+        document.getElementById("date").innerHTML = "last update" + Date();
+    </script>
+
+</body>
+
+</html>
